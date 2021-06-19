@@ -2,12 +2,12 @@
 what is git and github?
 
 
-#Html
+**Html**
 
-#Css
+**Css**
 
 
-#javaScript
+**javaScript**
 dom manupulation?
 asyncronus?
 

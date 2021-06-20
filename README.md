@@ -40,6 +40,11 @@ this?
 oop?
 functional programming?
  System Design and Scalability.
+ 
+ **regExp**
+   - [introduction to regexp](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
+    
+    
 ## Books
 -[Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 -[basic tutorials on js and phython](https://edabit.com/tutorials)

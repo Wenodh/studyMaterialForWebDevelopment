@@ -5,7 +5,7 @@ what is git and github?
 **Html**
 
 **Css**
-
+-[centering-css-complete-guide](https://css-tricks.com/centering-css-complete-guide/)
 
 **javaScript**
 dom manupulation?
@@ -38,7 +38,7 @@ instance?
 this?
 oop?
 functional programming?
-
+ System Design and Scalability.
 ## Books
 -[Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 -[basic tutorials on js and phython](https://edabit.com/tutorials)

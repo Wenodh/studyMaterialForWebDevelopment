@@ -11,3 +11,6 @@ what is git and github?
 dom manupulation?
 asyncronus?
 
+what is chrome extension?
+
+

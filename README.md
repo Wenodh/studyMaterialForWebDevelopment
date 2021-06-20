@@ -35,6 +35,9 @@ When called in a non-constructor context, Object behaves identically to new Obje
 
 constructor?
 instance?
+this?
+oop?
+functional programming?
 
 
 

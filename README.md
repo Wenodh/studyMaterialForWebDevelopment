@@ -39,5 +39,14 @@ this?
 oop?
 functional programming?
 
+## Books
+-[Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+-[basic tutorials on js and phython](https://edabit.com/tutorials)
+-[almost every document available](https://devdocs.io/)
+## Videos
+   - [Learn Javascript in 12 minutes](https://www.youtube.com/watch?v=Ukg_U3CnJWI)
+   - [Javascript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
+## links
+   - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
 
 

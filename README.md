@@ -49,5 +49,5 @@ functional programming?
    - [Javascript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
 ## links
    - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
-
+   - [entire-freecodecamp-curriculum](https://www.freecodecamp.org/news/i-completed-the-entire-freecodecamp-curriculum-in-a-month-while-recording-everything/)
 

@@ -30,7 +30,7 @@ The Object constructor creates an object wrapper for the given value.
     If the value is an object already, it will return the value.
 
 When called in a non-constructor context, Object behaves identically to new Object().
-  [objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+  [click for in detail](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 </details>
 
 constructor?

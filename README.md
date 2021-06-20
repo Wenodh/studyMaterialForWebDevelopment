@@ -5,7 +5,8 @@ what is git and github?
 **Html**
 
 **Css**
--[centering-css-complete-guide](https://css-tricks.com/centering-css-complete-guide/)
+
+- [centering-css-complete-guide](https://css-tricks.com/centering-css-complete-guide/)
 
 **javaScript**
 dom manupulation?

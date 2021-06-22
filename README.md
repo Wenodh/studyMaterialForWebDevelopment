@@ -40,6 +40,11 @@ this?
 oop?
 functional programming?
  System Design and Scalability.
+Hackerothons
+Mongadb
+Database
+Api calls
+
  
  **regExp**
    - [introduction to regexp](https://www.w3schools.com/js/js_regexp.asp)

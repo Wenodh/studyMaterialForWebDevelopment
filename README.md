@@ -44,6 +44,13 @@ Hackerothons
 Mongadb
 Database
 Api calls
+Rest api
+
+Frontend
+  Angular
+  Reactjs
+
+Backend
 
  
  **regExp**

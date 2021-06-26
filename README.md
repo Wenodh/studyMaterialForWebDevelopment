@@ -41,8 +41,26 @@ oop?
 functional programming?
  System Design and Scalability.
 Hackerothons
-Mongadb
+<p>Mongadb</p>
 <details>
+    
+- use db //to create database
+- db // To check your currently selected database
+- db.dropDatabase()  // drop a existing database
+- show dbs //check your databases list
+- db.createCollection(name) / to create collection
+- show collections //check the created collection
+- db.tutorialspoint.insert({"name" : "tutorialspoint"}) //In MongoDB, you don't need to create collection. MongoDB creates collection automatically, when you insert some document.
+- db.COLLECTION_NAME.drop()  //drop a collection from the database.
+- db.COLLECTION_NAME.insert(document) //To insert data into MongoDB collection  https://www.tutorialspoint.com/mongodb/mongodb_insert_document.htm
+- db.COLLECTION_NAME.insertOne(document) //to insert one document
+- db.COLLECTION_NAME.insertMany(document) //to insert many document
+- db.COLLECTION_NAME.find()  //To query data from MongoDB collection
+- db.COLLECTION_NAME.find().pretty()  //To display the results in a formatted way
+- db.mycol.findOne({title: "MongoDB Overview"}) //that returns only one document.
+    
+![Query of Documents](https://user-images.githubusercontent.com/63317955/123526246-22414800-d6f4-11eb-9c74-0e1737f3605b.png)
+
  -> Show databases
  show dbs;
  
@@ -128,6 +146,7 @@ Mongadb
  
  -> Drop collection
  > db.inventory.drop();
+
 
 [Nodejs and mongodb](https://www.js-tutorials.com/nodejs-tutorial/crud-operations-using-nodejs-express-mongodb-mongoose/)
  

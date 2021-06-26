@@ -1,14 +1,16 @@
 # studyMaterialForWebDevelopment
 what is git and github?
 
+[markdown basic syntax](https://www.markdownguide.org/basic-syntax)
 
-**Html**
+## Html
 
-**Css**
+## Css
 
 - [centering-css-complete-guide](https://css-tricks.com/centering-css-complete-guide/)
 
-**javaScript**
+## javaScript
+
 dom manupulation?
 asyncronus?
 
@@ -41,7 +43,9 @@ oop?
 functional programming?
  System Design and Scalability.
 Hackerothons
-<p>Mongadb</p>
+
+## Mongadb
+
 <details>
     
 - use db //to create database
@@ -57,10 +61,33 @@ Hackerothons
 - db.COLLECTION_NAME.insertMany(document) //to insert many document
 - db.COLLECTION_NAME.find()  //To query data from MongoDB collection
 - db.COLLECTION_NAME.find().pretty()  //To display the results in a formatted way
-- db.mycol.findOne({title: "MongoDB Overview"}) //that returns only one document.
+- db.mycol.findOne({title: "MongoDB Overview"}) //that returns only one document.  
+- This method also accepts list of options (which are optional). Following is the list
     
 ![Query of Documents](https://user-images.githubusercontent.com/63317955/123526246-22414800-d6f4-11eb-9c74-0e1737f3605b.png)
 
+-   db.mycol.find({ $and: [ {<key1>:<value1>}, { <key2>:<value2>} ] }) // returns if both conditions are true
+-   db.mycol.find({$or: [{key1: value1}, {key2:value2}]}).pretty() // returns if any one condition is true
+-   db.mycol.find({$nor: [{key1: value1}, {key2:value2}]}).pretty() // returns if values not in objects/collections
+-   db.mycol.find({$NOT: [{key1: value1}, {key2:value2}]}).pretty() //To query documents based on the NOT condition
+-   db.COLLECTION_NAME.update(SELECTION_CRITERIA, UPDATED_DATA) //The update() method updates the values in the existing document.
+-   db.mycol.update({'title':'MongoDB Overview'},{$set:{'title':'New MongoDB Tutorial'}},{multi:true}) //By default, MongoDB will update only a single document. To update multiple documents, you need to set a parameter 'multi' to true.
+-   db.COLLECTION_NAME.save({\_id:ObjectId(),NEW_DATA}) //The save() method replaces the existing document with the new document passed in the save() method
+-   db.COLLECTION_NAME.findOneAndUpdate(SELECTIOIN_CRITERIA, UPDATED_DATA)
+-   db.COLLECTION_NAME.updateOne(<filter>, <update>)
+-   db.COLLECTION_NAME.updateMany(<filter>, <update>)
+-   db.COLLECTION_NAME.remove(DELLETION_CRITTERIA) //remove all the documents meets dellition criteria
+-   db.COLLECTION_NAME.remove(DELETION_CRITERIA,1) //f there are multiple records and you want to delete only the first record
+-   db.mycol.remove({}) //remove all, equivalent of SQL's truncate command
+-   db.COLLECTION_NAME.find({},{KEY:1}) //MongoDB's find() method, explained in MongoDB Query Document accepts second optional parameter that is list of fields that you want to retrieve. In MongoDB, when you execute find() method, then it displays all fields of a document. To limit this, you need to set a list of fields with value 1 or 0. 1 is used to show the field while 0 is used to hide the fields.
+-   **\_id field is always displayed while executing find() method, if you don't want this field, then you need to set it as 0.**
+-   db.COLLECTION_NAME.find().limit(NUMBER) //no of doc to show
+-   db.COLLECTION_NAME.find().limit(NUMBER).skip(NUMBER) // to skip doc
+-   db.COLLECTION_NAME.find().sort({KEY:1}) // 1 for acending -1 for decending
+-   db.COLLECTION_NAME.createIndex({KEY:1}) // ndexes support the efficient resolution of queries. Without indexes, MongoDB must scan every document of a collection to select those documents that match the query statement. This scan is highly inefficient and require MongoDB to process a large volume of data.
+- This method also accepts list of options (which are optional). Following is the list 
+![image](https://user-images.githubusercontent.com/63317955/123527436-2c1b7900-d6fd-11eb-8dcd-9a6e72acc12a.png)
+    
  -> Show databases
  show dbs;
  
@@ -170,4 +197,4 @@ Api calls
 ## links
    - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
    - [entire-freecodecamp-curriculum](https://www.freecodecamp.org/news/i-completed-the-entire-freecodecamp-curriculum-in-a-month-while-recording-everything/)
-
+   - [markdown basic syntax](https://www.markdownguide.org/basic-syntax)

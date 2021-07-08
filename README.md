@@ -44,7 +44,11 @@ functional programming?
  System Design and Scalability.
 Hackerothons
 
-## Mongadb
+## Framework
+
+## DataBase
+
+* Mongadb
 
 <details>
     
@@ -195,6 +199,9 @@ Api calls
 ## Videos
    - [Learn Javascript in 12 minutes](https://www.youtube.com/watch?v=Ukg_U3CnJWI)
    - [Javascript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
+   - [CRUD REST API using Node | Express | MongoDB](https://www.youtube.com/watch?v=eYVGoXPq2RA)
+   - [JWT Authentication Tutorial - Node.js](https://www.youtube.com/watch?v=mbsmsi7l3r4)
+   - []()
 ## links
    - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
    - [entire-freecodecamp-curriculum](https://www.freecodecamp.org/news/i-completed-the-entire-freecodecamp-curriculum-in-a-month-while-recording-everything/)

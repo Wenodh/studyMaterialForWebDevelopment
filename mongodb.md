@@ -1,5 +1,7 @@
 ## Mongodb
 
+![excali](https://user-images.githubusercontent.com/63317955/125098955-25293900-e0f5-11eb-970d-62d7ca54ddb7.png)
+
 - use db //to create database
 - db // To check your currently selected database
 - db.dropDatabase()  // drop a existing database
@@ -135,3 +137,5 @@
 [Nodejs and mongodb](https://www.js-tutorials.com/nodejs-tutorial/crud-operations-using-nodejs-express-mongodb-mongoose/)
  
 
+thanks to Darsheel Savla
+	

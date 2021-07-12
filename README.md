@@ -60,16 +60,58 @@ Api calls
  
     
 ## Books
--[Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
--[basic tutorials on js and phython](https://edabit.com/tutorials)
--[almost every document available](https://devdocs.io/)
+
+- [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- [basic tutorials on js and phython](https://edabit.com/tutorials)
+- [almost every document available](https://devdocs.io/)
+
 ## Videos
    - [Learn Javascript in 12 minutes](https://www.youtube.com/watch?v=Ukg_U3CnJWI)
    - [Javascript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
    - [CRUD REST API using Node | Express | MongoDB](https://www.youtube.com/watch?v=eYVGoXPq2RA)
    - [JWT Authentication Tutorial - Node.js](https://www.youtube.com/watch?v=mbsmsi7l3r4)
-   - []()
+   - [Asynchronous JavaScript Course (Async/Await, Promises, Callbacks)](https://www.youtube.com/watch?v=ZYb_ZU8LNxs)
+
+
 ## links
    - [Javascript Algorithms With Explanations](https://github.com/trekhleb/javascript-algorithms)
    - [entire-freecodecamp-curriculum](https://www.freecodecamp.org/news/i-completed-the-entire-freecodecamp-curriculum-in-a-month-while-recording-everything/)
    - [markdown basic syntax](https://www.markdownguide.org/basic-syntax)
+
+ ## thinks to know
+ 
+ dom
+click event listeners
+browser storages-local,session,etc 
+fetch
+callbacks
+asyn await
+modules
+closers
+scoping hosting
+recursion
+
+nodejs
+express-milddle ware works,folder structure
+socket-for messaging
+common modules
+
+restapi learn
+grapgql optional
+communication b/w server and client
+mvc arcitecture works?
+dbs-> nosql(mongodb)
+      ->sql(postgrs)
+orm
+json-javascript object notation
+deployment
+basic security
+testing - unit testing,intigration test
+
+typescript
+nextjs/nuxjs
+pwas -progressive...
+spas- single page apps
+severless
+
+ 

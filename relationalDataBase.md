@@ -7,7 +7,7 @@ Relational data base
 - header of column is called as a field
 - each cell-> cell
 - ******** type of database *************
-- Postgresql
+- Postgresql [Cheat sheet sheet](https://www.postgresqltutorial.com/postgresql-cheat-sheet/)
 - Mysql
 - ms sql server
 - Aws Rds

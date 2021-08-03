@@ -1,5 +1,7 @@
 ## Mongodb
 
+[cheetSheet](https://www.mongodb.com/developer/quickstart/cheat-sheet/)
+
 ![excali](https://user-images.githubusercontent.com/63317955/125098955-25293900-e0f5-11eb-970d-62d7ca54ddb7.png)
 
 - use db //to create database

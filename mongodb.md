@@ -4,24 +4,23 @@
 
 ![excali](https://user-images.githubusercontent.com/63317955/125098955-25293900-e0f5-11eb-970d-62d7ca54ddb7.png)
 
-- use db //to create database
-- db // To check your currently selected database
-- db.dropDatabase()  // drop a existing database
-- show dbs //check your databases list
-- db.createCollection(name) / to create collection
-- show collections //check the created collection
-- db.tutorialspoint.insert({"name" : "tutorialspoint"}) //In MongoDB, you don't need to create collection. MongoDB creates collection automatically, when you insert some document.
-- db.COLLECTION_NAME.drop()  //drop a collection from the database.
-- db.COLLECTION_NAME.insert(document) //To insert data into MongoDB collection  https://www.tutorialspoint.com/mongodb/mongodb_insert_document.htm
-- db.COLLECTION_NAME.insertOne(document) //to insert one document
-- db.COLLECTION_NAME.insertMany(document) //to insert many document
-- db.COLLECTION_NAME.find()  //To query data from MongoDB collection
-- db.COLLECTION_NAME.find().pretty()  //To display the results in a formatted way
-- db.mycol.findOne({title: "MongoDB Overview"}) //that returns only one document.  
-- This method also accepts list of options (which are optional). Following is the list
-  
+-   use db //to create database
+-   db // To check your currently selected database
+-   db.dropDatabase() // drop a existing database
+-   show dbs //check your databases list
+-   db.createCollection(name) / to create collection
+-   show collections //check the created collection
+-   db.tutorialspoint.insert({"name" : "tutorialspoint"}) //In MongoDB, you don't need to create collection. MongoDB creates collection automatically, when you insert some document.
+-   db.COLLECTION_NAME.drop() //drop a collection from the database.
+-   db.COLLECTION_NAME.insert(document) //To insert data into MongoDB collection https://www.tutorialspoint.com/mongodb/mongodb_insert_document.htm
+-   db.COLLECTION_NAME.insertOne(document) //to insert one document
+-   db.COLLECTION_NAME.insertMany(document) //to insert many document
+-   db.COLLECTION_NAME.find() //To query data from MongoDB collection
+-   db.COLLECTION_NAME.find().pretty() //To display the results in a formatted way
+-   db.mycol.findOne({title: "MongoDB Overview"}) //that returns only one document.
+-   This method also accepts list of options (which are optional). Following is the list
+
 ![Query of Documents](https://user-images.githubusercontent.com/63317955/123526246-22414800-d6f4-11eb-9c74-0e1737f3605b.png)
-	
 
 -   db.mycol.find({ $and: [ {<key1>:<value1>}, { <key2>:<value2>} ] }) // returns if both conditions are true
 -   db.mycol.find({$or: [{key1: value1}, {key2:value2}]}).pretty() // returns if any one condition is true
@@ -42,102 +41,90 @@
 -   db.COLLECTION_NAME.find().limit(NUMBER).skip(NUMBER) // to skip doc
 -   db.COLLECTION_NAME.find().sort({KEY:1}) // 1 for acending -1 for decending
 -   db.COLLECTION_NAME.createIndex({KEY:1}) // ndexes support the efficient resolution of queries. Without indexes, MongoDB must scan every document of a collection to select those documents that match the query statement. This scan is highly inefficient and require MongoDB to process a large volume of data.
-- This method also accepts list of options (which are optional). Following is the list 
+-   This method also accepts list of options (which are optional). Following is the list
 
-		
 ![image](https://user-images.githubusercontent.com/63317955/123527436-2c1b7900-d6fd-11eb-8dcd-9a6e72acc12a.png)
-		
- 
- -> Show databases
- show dbs;
- 
- -> Use databases
- use local;
- 
- -> Show collections
- show collections;
- 
- -> Insert sample data
- db.inventory.insertMany([
-     { item: "journal", qty: 25, status: "A", size: { h: 14, w: 21, uom: "cm" }, tags: [ "blank", "red" ] },
-     { item: "notebook", qty: 50, status: "A", size: { h: 8.5, w: 11, uom: "in" }, tags: [ "red", "blank" ] },
-     { item: "paper", qty: 10, status: "D", size: { h: 8.5, w: 11, uom: "in" }, tags: [ "red", "blank", "plain" ] },
-     { item: "planner", qty: 3, status: "D", size: { h: 22.85, w: 30, uom: "cm" }, tags: [ "blank", "red" ] },
-     { item: "postcard", qty: 45, status: "A", size: { h: 10, w: 15.25, uom: "cm" }, tags: [ "blue" ] }
- ]);
- 
- -> Fetch documents
- db.inventory.find();
- 
- -> Pretty print
- db.inventory.find().pretty();
- 
- -> Filter documents
- db.inventory.find({ item: "notebook"  }).pretty();
- 
- -> Show only required fields in result
- db.inventory.find({ }, { qty:1, item:1, _id: 0 }).pretty();
- db.inventory.find({ item: "notebook"  }, { qty:1, item:1, _id:0 }).pretty();
- 
- -> Searching inside nested objects
- > db.inventory.find({ 'size.uom': "cm" }, { _id: 0, item: 1 }).pretty();
- 
- -> Searching inside array
-     -> And query
-         db.inventory.find({ tags: { $all: ["blank", "plain"] } }).pretty();
-     -> OR query
-         db.inventory.find({ tags: { $in: ["plain", "blue"] } }).pretty();
- 
- -> Operators 
-    -> Greater than // $gt
-         > db.inventory.find({ qty: { $gt: 25 }  }).pretty()
-    -> Greater than or equal to // $gte
-         > db.inventory.find({ qty: { $gte: 25 }  }).pretty()
-    -> Less than // $lt
-         > db.inventory.find({ qty: { $lt: 25 }  }).pretty()
-    -> Less than or equal to // $lte
-        > db.inventory.find({ qty: { $lte: 25 }  }).pretty()
-    -> Sort
-         > db.inventory.find({}, { qty: 1, item: 1, _id: 0 }).sort({ qty: -1 });
-         > db.inventory.find({}, { qty: 1, item: 1, _id: 0 }).sort({ qty: 1 });
-    -> Limit
-         > db.inventory.find({}, { qty: 1, item: 1, _id: 0 }).sort({ qty: -1 }).limit(3);
-         > db.inventory.find({}, { qty: 1, item: 1, _id: 0 }).limit(3);
-    -> Skip
-         > db.inventory.find({}, { qty: 1, item: 1, _id: 0 }).sort({ qty: -1 }).skip(1).limit(1);
- 
- -> Updating documents
-     // update 
-     > db.inventory.updateOne({ item: "planner" }, { $set: { qty: 100 } });
- 
+
+-> Show databases
+show dbs;
+
+-> Use databases
+use local;
+
+-> Show collections
+show collections;
+
+-> Insert sample data
+db.inventory.insertMany([
+{ item: "journal", qty: 25, status: "A", size: { h: 14, w: 21, uom: "cm" }, tags: [ "blank", "red" ] },
+{ item: "notebook", qty: 50, status: "A", size: { h: 8.5, w: 11, uom: "in" }, tags: [ "red", "blank" ] },
+{ item: "paper", qty: 10, status: "D", size: { h: 8.5, w: 11, uom: "in" }, tags: [ "red", "blank", "plain" ] },
+{ item: "planner", qty: 3, status: "D", size: { h: 22.85, w: 30, uom: "cm" }, tags: [ "blank", "red" ] },
+{ item: "postcard", qty: 45, status: "A", size: { h: 10, w: 15.25, uom: "cm" }, tags: [ "blue" ] }
+]);
+
+-> Fetch documents
+db.inventory.find();
+
+-> Pretty print
+db.inventory.find().pretty();
+
+-> Filter documents
+db.inventory.find({ item: "notebook" }).pretty();
+
+-> Show only required fields in result
+db.inventory.find({ }, { qty:1, item:1, \_id: 0 }).pretty();
+db.inventory.find({ item: "notebook" }, { qty:1, item:1, \_id:0 }).pretty();
+
+-> Searching inside nested objects
+
+> db.inventory.find({ 'size.uom': "cm" }, { \_id: 0, item: 1 }).pretty();
+
+-> Searching inside array
+-> And query
+db.inventory.find({ tags: { $all: ["blank", "plain"] } }).pretty();
+-> OR query
+db.inventory.find({ tags: { $in: ["plain", "blue"] } }).pretty();
+
+-> Operators
+-> Greater than // $gt > db.inventory.find({ qty: { $gt: 25 } }).pretty()
+-> Greater than or equal to // $gte > db.inventory.find({ qty: { $gte: 25 } }).pretty()
+-> Less than // $lt > db.inventory.find({ qty: { $lt: 25 } }).pretty()
+-> Less than or equal to // $lte > db.inventory.find({ qty: { $lte: 25 } }).pretty()
+-> Sort > db.inventory.find({}, { qty: 1, item: 1, \_id: 0 }).sort({ qty: -1 }); > db.inventory.find({}, { qty: 1, item: 1, \_id: 0 }).sort({ qty: 1 });
+-> Limit > db.inventory.find({}, { qty: 1, item: 1, \_id: 0 }).sort({ qty: -1 }).limit(3); > db.inventory.find({}, { qty: 1, item: 1, \_id: 0 }).limit(3);
+-> Skip > db.inventory.find({}, { qty: 1, item: 1, \_id: 0 }).sort({ qty: -1 }).skip(1).limit(1);
+
+-> Updating documents
+// update > db.inventory.updateOne({ item: "planner" }, { $set: { qty: 100 } });
+
      // add a field ( incase field is not the part of document )
      db.inventory.updateOne({ item: "planner" }, { $set: { price: 1000 } });
      // remove a field
      db.inventory.updateOne({ item: "planner" }, { $unset: { price: 1 } });
- 
- -> Updating arrays
- db.inventory.updateOne({ item: "planner" }, { $push: { tags: "magenta" } });
- db.inventory.updateOne({ item: "planner" }, { $pull: { tags: "blank" } });
- 
- -> Inserting single document
- db.inventory.insertOne({ item: "diary", qty: 25, status: "A", size: { h: 14, w: 21, uom: "cm" }, tags: [ "blank", "red" ] });
- 
- -> Deleting documents
- > db.inventory.deleteOne({ item: "diary" });
- 
- -> Indexes
- > db.inventory.getIndexes();
- > db.inventory.find({item: "planner"}).explain("executionStats");
- > db.inventory.createIndex({ item: 1 });
- > db.inventory.dropIndex({ item: 1});
- 
- -> Drop collection
- > db.inventory.drop();
 
+-> Updating arrays
+db.inventory.updateOne({ item: "planner" }, { $push: { tags: "magenta" } });
+db.inventory.updateOne({ item: "planner" }, { $pull: { tags: "blank" } });
 
-	
+-> Inserting single document
+db.inventory.insertOne({ item: "diary", qty: 25, status: "A", size: { h: 14, w: 21, uom: "cm" }, tags: [ "blank", "red" ] });
+
+-> Deleting documents
+
+> db.inventory.deleteOne({ item: "diary" });
+
+-> Indexes
+
+> db.inventory.getIndexes();
+> db.inventory.find({item: "planner"}).explain("executionStats");
+> db.inventory.createIndex({ item: 1 });
+> db.inventory.dropIndex({ item: 1});
+
+-> Drop collection
+
+> db.inventory.drop();
+
 [Nodejs and mongodb](https://www.js-tutorials.com/nodejs-tutorial/crud-operations-using-nodejs-express-mongodb-mongoose/)
- 
 
 thanks to Darsheel Savla
-	

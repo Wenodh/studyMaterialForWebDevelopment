@@ -122,3 +122,9 @@ nextjs/nuxjs
 pwas -progressive...
 spas- single page apps
 serverless
+
+### mocktest
+
+- Learn about how does node js works, event loop execution, classes, callback, promises, closures.
+- Learn about Mongodb queries, aggregation and projection.
+- Improve programming skills by solving problems on hackerrank or leetcode

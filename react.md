@@ -1,4 +1,4 @@
-![10-mistakes-react-developers-make](https://blog.logrocket.com/10-mistakes-react-developers-make/)
+<!-- ![10-mistakes-react-developers-make](https://blog.logrocket.com/10-mistakes-react-developers-make/) -->
 - https://blog.logrocket.com/10-mistakes-react-developers-make/
 - https://immutable-js.com/
 - https://github.com/kolodny/immutability-helper

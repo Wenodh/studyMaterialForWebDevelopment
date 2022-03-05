@@ -4,3 +4,7 @@
 - https://github.com/kolodny/immutability-helper
 - https://medium.com/swlh/the-most-common-mistakes-when-using-react-446b7b8c053a
 - https://www.netlify.com/blog/2016/11/10/3-of-the-most-common-errors-in-react/
+- https://dmitripavlutin.com/react-useeffect-explanation/#1-useeffect-is-for-side-effects
+- https://dmitripavlutin.com/react-useref-guide/#:~:text=useRef%20%28initialValue%29%20is%20a%20built-in%20React%20hook%20that,is%20an%20object%20having%20a%20special%20property%20current. 
+- https://dmitripavlutin.com/react-hooks-mistakes-to-avoid/
+- 

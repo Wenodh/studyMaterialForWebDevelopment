@@ -11,3 +11,5 @@
 - https://documentation.onesignal.com/docs/web-push-quickstart
 - https://www.youtube.com/channel/UCIPZVAwDGa-A4ZJxCBvXRuQ for interview preparation 
 - https://fkhadra.github.io/react-toastify/positioning-toast react toast documentation
+- https://www.educative.io/blog/build-modern-apps-progressive-web-apps pwa
+- https://www.educative.io/blog/5-minute-guide-to-push-notifications-in-pwa 

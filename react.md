@@ -14,3 +14,5 @@
 - https://www.educative.io/blog/build-modern-apps-progressive-web-apps pwa
 - https://www.educative.io/blog/5-minute-guide-to-push-notifications-in-pwa 
 - https://www.youtube.com/watch?v=9uGuG2L08W0&list=PL20fyMtMStyGltl7wjgwSoKM_PmhB6J1v essentials of web developer youtube playlist
+- https://dev.to/noconsulate/react-pwa-with-workbox-6dl?signin=true react pwa with workbox
+- 

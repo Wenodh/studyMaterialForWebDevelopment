@@ -17,3 +17,4 @@
 - https://dev.to/noconsulate/react-pwa-with-workbox-6dl?signin=true react pwa with workbox
 - https://web.dev/promises/ 
 - https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#enter_service_workers  
+- https://www.crio.do/blog/top-5-javascript-projects-reactjs/

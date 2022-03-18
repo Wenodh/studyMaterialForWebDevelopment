@@ -28,3 +28,4 @@
 - https://create-react-app.dev/docs/making-a-progressive-web-app/#offline-first-considerations
 - https://developer.chrome.com/docs/workbox/service-worker-overview/
 - course https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0
+- https://itnext.io/how-i-built-my-first-progressive-web-app-pwa-6fd3f5a164c0

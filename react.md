@@ -18,3 +18,13 @@
 - https://web.dev/promises/ 
 - https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#enter_service_workers  
 - https://www.crio.do/blog/top-5-javascript-projects-reactjs/
+
+******** PWA  ********
+
+- 
+- https://web.dev/progressive-web-apps/
+- https://github.com/w3c/ServiceWorker/blob/main/explainer.md
+- https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+- https://create-react-app.dev/docs/making-a-progressive-web-app/#offline-first-considerations
+- https://developer.chrome.com/docs/workbox/service-worker-overview/
+- course https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0
